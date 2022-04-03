@@ -34,24 +34,19 @@ function magneticScroll(preference = "all"){
     let widthMinMax;
     switch(preference) {
         case "mobile":
-            console.log("mobile")
             widthMinMax = [0,1000]
             break;
         case "desktop":
-            console.log("desktop")
             widthMinMax = [768,9999]
             break;
         default:
-            console.log("default")
             widthMinMax = [0,9999]
     }
     const screenWidth = screen.width;
-    console.log(screenWidth)
     if (screenWidth > widthMinMax[0] && screenWidth < widthMinMax[1]) {
-        checkStructure();
-        magnetContainer();
         checkStructure().forEach(function(section){
             magnetChild(section)
         });
+        magnetContainer();
     }
 }
