@@ -18,7 +18,7 @@ function checkStructure (){
     let children
     switch(sections.length) {
         case 0:
-            children = document.body.childNodes
+            children = [...document.body.childNodes]
             break;
         case 1:
             container = sections[0]
