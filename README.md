@@ -1,4 +1,4 @@
-# Magnetic-Scroll
+# Magnetic-Scroll (JS)
 Quickly add Tiktok or Youtube Shorts-style "magnetic" snap scrolling to a site
 
 # Usage
