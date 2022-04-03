@@ -18,11 +18,11 @@ function checkStructure (){
     let children
     switch(sections.length) {
         case 0:
-            children = [...document.body.childNodes]
+            children = [...document.body.childNodes].filter(node => node.tagName === "DIV")
             break;
         case 1:
             container = sections[0]
-            children = sections[0].childNodes
+            children = [...sections[0].childNodes].filter(node => node.tagName === "DIV")
             break;
         default:
             children = sections
