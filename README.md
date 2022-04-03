@@ -2,7 +2,7 @@
 Quickly add Tiktok or Youtube Shorts-style "magnetic" snap scrolling to a site
 
 # Usage
-> CDN source: https://cdn.jsdelivr.net/gh/JackHoweller/Magnetic-Scroll/package.js
+> CDN: https://cdn.jsdelivr.net/gh/JackHoweller/Magnetic-Scroll@latest/package.js
 
 Add scroll snapping to your site using:
 `magneticScroll()`
